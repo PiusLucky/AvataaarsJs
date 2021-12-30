@@ -171,6 +171,7 @@ const Avataaars = {
         pastelRed: '#FFAFB9',
         pastelYellow: '#FFFFB1',
         pink: '#FF488E',
+        refemPink: '#800080',
         red: '#FF5C5C',
         white: '#FFFFFF',
     },
@@ -656,3 +657,15 @@ const Avataaars = {
     }
   }
 };
+
+
+const svg = Avataaars.create({
+    eyes: "happy",
+    clothingColor: "refemPink",
+    clothing: "hoodie",
+    hair: "dreads",
+    hairColor: "blonde",
+    mouth: "smile"
+});
+
+console.log(svg);
